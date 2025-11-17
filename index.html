@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Glamour Cosmetic Shop</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f1f5;
+    }
+    header {
+        background: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9') center/cover no-repeat;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+        font-size: 2.5rem;
+    }
+    nav {
+        background: #d63384;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .product {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .btn {
+        display: inline-block;
+        background: #d63384;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+    footer {
+        background: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    Glamour Cosmetic Shop
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="section">
+    <h2>Welcome to Glamour Cosmetic Shop</h2>
+    <p>Your beauty, our passion. Explore premium cosmetics curated just for you.</p>
+    <a href="#products" class="btn">Shop Now</a>
+</section>
+
+<section id="products" class="section">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01" alt="Lipstick" />
+            <h3>Matte Lipstick</h3>
+            <p>Long-lasting, smooth, vibrant colors.</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1519183071298-a2962be90b8e" alt="Perfume" />
+            <h3>Luxury Perfume</h3>
+            <p>Elegant scent for every occasion.</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Skincare" />
+            <h3>Skincare Set</h3>
+            <p>Glow naturally with our organic set.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Glamour Cosmetic Shop offers high-quality beauty and skincare products. Our mission is to enhance your natural beauty with trusted and luxurious brands.
+    </p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: glamourshop@example.com</p>
+    <p>Phone: +63 912 345 6789</p>
+</section>
+
+<footer>
+    © 2025 Glamour Cosmetic Shop. All Rights Reserved.
+</footer>
+
+</body>
+</html>
